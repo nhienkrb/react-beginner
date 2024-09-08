@@ -1,3 +1,4 @@
+import ConditionalComponent from "./components/ConditionalComponent"
 import Fruits from "./components/Fruits"
 import Hello from "./components/Hello"
 
@@ -13,8 +14,8 @@ function App() {
           <h1 className="text-[29px]">Hello world form file App.jsx</h1> <br />
           <Hello person={person}/>
           <h1></h1>
-
-          <Fruits />
+           <Fruits /> 
+        <ConditionalComponent/>
     </div>
     
   )

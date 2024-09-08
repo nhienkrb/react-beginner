@@ -13,8 +13,13 @@ export default function Fruits() {
     <div className="m-8">
       <ul>
         {fruits.map((item) => (
-          <Fruit key={item.name} name={item.name} price={item.price}  emoji = {item.emoji}/>
-        /* <li key={item.name}>
+          <Fruit
+            key={item.name}
+            name={item.name}
+            price={item.price}
+            emoji={item.emoji}
+          />
+          /* <li key={item.name}>
             {item.name} - {item.price} - {item.emoji}
           </li> 
         */

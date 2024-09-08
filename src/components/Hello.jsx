@@ -9,7 +9,7 @@ function Hello(props) {
     const {person} = props;
   return (
     <div>
-      <h1 className="text-xl hover:text-2xl transition-transform">
+      <h1 className="text-xl ">
         Hello form a component Hello.jsx ! {person.name} | {person.message} | {person.seatNumbers} 
       </h1>
     </div>
