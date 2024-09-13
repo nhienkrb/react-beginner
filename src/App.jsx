@@ -1,5 +1,6 @@
 import ConditionalComponent from "./components/ConditionalComponent"
 import Counter from "./components/Counter"
+import Form from "./components/Form"
 import Fruits from "./components/Fruits"
 import Hello from "./components/Hello"
 import Message from "./components/Message"
@@ -24,6 +25,9 @@ function App() {
 
         <hr className="my-[30px] "/>
         <Counter/>
+
+        <hr className="my-[30px] "/>
+        <Form/>
     </div>
     
   )
